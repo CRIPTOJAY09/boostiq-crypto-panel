@@ -1,0 +1,35 @@
+{
+  "name": "crypto-explosion-api",
+  "version": "1.0.0",
+  "description": "API profesional para detectar explosiones y nuevos listados en criptomonedas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "axios": "^1.4.0",
+    "node-cache": "^5.1.2",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "crypto",
+    "binance",
+    "trading",
+    "explosion",
+    "api"
+  ],
+  "author": "Tu nombre",
+  "license": "MIT"
+}
